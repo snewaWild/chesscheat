@@ -125,7 +125,7 @@ function startHack(element) {
   let hack = main()
   if (hack.status == true) {
     element.disabled = false;
-    element.innerHTML = `Hack running. <span id = 'best-move'>Calculating Best move. Tap to stop</span>`
+    element.innerHTML = ` <span id = 'best-move'>Calculating Best move. Tap to stop</span>`
   }
   else {
     element.innerHTML = "Start Hack"
