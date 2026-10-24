@@ -71,7 +71,7 @@ function main() {
       // Use the best move in your application
       char_map = { "a": 1, "b": 2, "c": 3, "d": 4, "e": 5, "f": 6, "g": 7, "h": 8 }
       console.log('Best move:', bestMove);
-      document.getElementById("best-move").innerHTML = ` Bestmove is ${bestMove} at depth ${globalDepth}. Tap to stop`
+      document.getElementById("best-move").innerHTML = ` Chess`
       //create cheat squares on the board
       previous_cheat_squares = document.querySelectorAll(".cheat-highlight").forEach((element) => {
         //remove all previous cheat squares
@@ -106,7 +106,7 @@ function main() {
     });
     //set hackRunning to false;
     hackRunning = false;
-    document.getElementById("hack_button").innerHTML = "Start Hack Again";
+    document.getElementById("hack_button").innerHTML = "Chess";
     return { status: "false" }
 
   }
